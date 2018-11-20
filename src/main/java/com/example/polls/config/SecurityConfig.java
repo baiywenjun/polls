@@ -1,5 +1,7 @@
 package com.example.polls.config;
 
+import com.example.polls.auth.JwtAuthenticationEntryPoint;
+import com.example.polls.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
